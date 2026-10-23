@@ -13,7 +13,7 @@ export default function Login() {
   const [Password, setPassword] = useState("")
   const [username, setUsername] = useState("")
 
-  sessionStorage.setItem('CurrentUser', JSON.stringify(CurrentUser));
+  
 
   function GetData() {
    
